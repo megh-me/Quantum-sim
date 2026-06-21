@@ -30,7 +30,6 @@ i ran the single gate simulation for a 3 qubit system, targetting the 2nd qubit
 ```
 Running Single Gate
 SINGLE GATE SIMULATION
-Gate Applied : X on qubit 1
 Outputs      : {'010': 1024}
 State Vector : (+1.0000      )|010⟩
 Memory Used  : 128 bytes
