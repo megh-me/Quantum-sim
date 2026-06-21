@@ -27,21 +27,21 @@ python simulator.py
 ## Example output
 i ran the single gate simulation for a 3 qubit system, targetting the 2nd qubit
 Running Single Gate
- SINGLE GATE SIMULATION
+SINGLE GATE SIMULATION
 Gate Applied : X on qubit 1
 Outputs      : {'010': 1024}
 State Vector : (+1.0000      )|010⟩
 Memory Used  : 128 bytes
 Total Time   : 0.9728 ms
-  Probability Error : 0.000000 (should be 0)
-  Gate Execution Time : 0.923200 ms
+Probability Error : 0.000000 (should be 0)
+Gate Execution Time : 0.923200 ms
 
 Running Bell State
- BELL STATE SIMULATION  
+BELL STATE SIMULATION  
 Circuit      : H(q1) + CNOT(ctrl=q1, tgt=q0)
 Outputs      : {'00': 517, '11': 507}
 State Vector : (+0.7071      )|00⟩ + (+0.7071      )|11⟩
 Memory Used  : 64 bytes
 Total Time   : 0.1721 ms
-  Probability Error : 0.000000 (should be 0)
-  Gate Execution Time : 0.146400 ms
+Probability Error : 0.000000 (should be 0)
+Gate Execution Time : 0.146400 ms
