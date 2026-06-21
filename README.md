@@ -26,6 +26,7 @@ python simulator.py
 
 ## Example output
 i ran the single gate simulation for a 3 qubit system, targetting the 2nd qubit
+
 ```
 Running Single Gate
 SINGLE GATE SIMULATION
