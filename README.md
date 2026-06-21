@@ -26,6 +26,7 @@ python simulator.py
 
 ## Example output
 i ran the single gate simulation for a 3 qubit system, targetting the 2nd qubit
+```
 Running Single Gate
 SINGLE GATE SIMULATION
 Gate Applied : X on qubit 1
@@ -45,3 +46,4 @@ Memory Used  : 64 bytes
 Total Time   : 0.1721 ms
 Probability Error : 0.000000 (should be 0)
 Gate Execution Time : 0.146400 ms
+```
