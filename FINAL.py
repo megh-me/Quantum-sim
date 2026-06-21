@@ -116,9 +116,8 @@ def run_single_gate(qubit=0,n=1,shots=1024): #Running a single gate of your choi
     total_time_ms = (time.perf_counter() - t_start) * 1000 #execution time in milliseconds
     measurements = qb.measure(shots)
     sv = qb.state_vector()
-
+#KPIS
     print(" SINGLE GATE SIMULATION")
-    print(f"Gate Applied : X on qubit {qubit}")
     print(f"Outputs      : {measurements}")
     print(f"State Vector : {sv}")
     print(f"Memory Used  : {qb.state_size * 16} bytes")
@@ -137,7 +136,7 @@ def run_bell_state(shots=1024):
     total_time_ms = (time.perf_counter() - t_start) * 1000 #execution time in milliseconds
     measurements = qc.measure(shots=shots)
     sv = qc.state_vector()
-
+#KPIS
     print(" BELL STATE SIMULATION  ")
     print(f"Circuit      : H(q1) + CNOT(ctrl=q1, tgt=q0)")
     print(f"Outputs      : {measurements}")
