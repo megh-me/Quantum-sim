@@ -18,7 +18,7 @@ python simulator.py
 ## KPIs measured
 - Execution time (milliseconds)
 - Memory usage (bytes) — calculated as state_size x 16
-- State vector size — grows as 2^n with each qubit added
+- State vector representation with complex amplitudes
 - Gate execution time (milliseconds)
 - Probabaility Error/correctness
 
